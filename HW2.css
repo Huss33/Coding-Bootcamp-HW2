@@ -1,0 +1,78 @@
+
+
+h1 {
+    font-size: 75px;
+    position: relative;
+    top: 30px;
+    font-weight: bolder;
+}
+
+h2 {
+    position: absolute;
+    right: 50px;
+    bottom: 20px;
+    background-color: purple;
+    font-size: 50px;
+    color: white;
+}
+
+h3 {
+    font-size: 40px;
+    width: 15%;
+    position: relative;
+    top: 30px;
+    font-weight: bold;
+}
+
+nav {
+    background-color: purple;
+    color: white;
+    height: 125px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+p {
+    float: right;
+    width: 85%;
+}
+
+li a {
+    display: inline-block;
+    text-align: center;
+    padding: 15px 20px;
+    font-size: 30px;
+    position: relative;
+    bottom: 12px;
+}
+
+nav li a:hover {
+    background-color: gold;
+}
+
+footer li a:hover {
+    background-color: lightblue;
+}
+
+.Subtitle {
+    background-color: gold;
+    /* background-image: url(pngtree-blue-carbon-background.jpg); */
+    /* background-position: left top; */
+    /* background-repeat: repeat; */
+    height: 200px;
+    position: relative;
+    
+}
+
+.work p {
+   float: right;
+}
