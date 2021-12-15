@@ -140,6 +140,11 @@ footer li a:hover {
     margin-left: 400px;
 }
 
+.profilePic {
+    height: 200px;
+    width: 150px;
+    margin-left: 200px;
+}
 .imgStyle {
     height: 200px;
     width: 450px;
