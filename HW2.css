@@ -26,6 +26,7 @@ h3 {
     border-width: 0 5px 0 0;
     margin: 3%;
     padding: 3%;
+    height: 80px;
     
 }
 
@@ -46,14 +47,24 @@ li {
     float: right;
 }
 
-p {
+header {
+   display: inline-flexbox;
+   flex-wrap: wrap;
+}
+
+.aboutMe p {
     float: right;
-    width: 70%;
+    width: 924px;
     position: relative;
-    bottom: 145px;
+    top: 80px;
+    /* bottom: 145px; */
+    /* margin-right: 100px; */
+    /* margin-left: 100px; */
 }
 
 footer li a {
+    /* display: flex; */
+    /* flex-wrap: wrap; */
     position: relative;
     bottom: 20px;   
 }
@@ -75,6 +86,8 @@ footer li a:hover {
     background-color: lightblue;
 }
 
+
+
 .subtitle {
     background: linear-gradient(purple,gold);
     /* background-color: gold; */
@@ -82,8 +95,67 @@ footer li a:hover {
     position: relative;                               
 }
 
-.work
+.aboutMe {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.work {
+    display: flex;
+    flex-wrap: wrap;
+
+    
+}
+
+.work h3 {
+    border: none;
+    top: 0px;
+}
+
+.work-1 {
+    position: relative;
+    float:right;
+    border: 2px solid black;
+    top: 40px;
+}
+
+.work-2 {
+    display:inline-flex;
+    flex-wrap: wrap;
+    position: relative;
+    float: right;
+    margin-left: 400px;
+}
+
+.imgStyle {
+    height: 200px;
+    width: 450px;
+    margin: 10px;
+    border: 2px solid black;
+}
 
 
-   
 
+.project2 {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+
+.project3 {
+    position: absolute;
+    right: 570px;
+    top: 15px;
+}
+
+.project4 {
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+}
+
+.project5 {
+    position: absolute;
+    right: 570px;
+    bottom: 15px;
+}
