@@ -183,3 +183,9 @@ footer li a:hover {
         color: purple;
     }
 }
+
+@media screen and (max-width: 576px) {
+    .profilePic {
+        display: none;
+    }
+}
